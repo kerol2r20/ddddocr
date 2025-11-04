@@ -38,7 +38,7 @@ setup(
         'api': ['fastapi>=0.100.0', 'uvicorn[standard]>=0.20.0', 'pydantic>=2.0.0'],
         'all': ['fastapi>=0.100.0', 'uvicorn[standard]>=0.20.0', 'pydantic>=2.0.0']
     },
-    python_requires='<=3.13',
+    python_requires='<=3.14',
     include_package_data=True,
     install_package_data=True,
     entry_points={
@@ -47,3 +47,4 @@ setup(
         ],
     },
 )
+
